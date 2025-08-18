@@ -15,7 +15,7 @@ name                     : &name "Debopriya Roy Dipta"
 description              : &description "personal description"
 url                      : https://diptakuet.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Diptakuet/academicpages.github.io"
+repository               : "Diptakuet/diptakuet.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,12 +23,12 @@ repository               : "Diptakuet/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Debopriya Roy Dipta"
   pronouns         : "he/him"  
   bio              : "Ph.D. Candidate | Graduate Research Assistant | Computer Engineering"
   location         : #"Earth"
   employer         : "Iowa State University"
-  uri              : # URL
+  uri              : "https://www.iastate.edu/"
   email            : "roydipta.iastate.edu" 
 
   # Academic websites
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/debopriya-roy-dipta-1b8137109?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6DRwu%2FRVSkqBViWRXYwywA%3D%3D"
+  linkedin         : "linkedin.com/in/debopriya-roy-dipta-1b8137109"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
