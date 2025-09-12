@@ -15,3 +15,9 @@ redirect_from:
 - **Website Fingeprinting and Key Stroke Detection Attack** [**[ACSAC'23**]](https://dl.acm.org/doi/10.1145/3627106.3627191) [**[ACSAC'22**]](https://dl.acm.org/doi/10.1145/3564625.3567979)
 - **Detection tool against micro-architectural attacks** [**[IEEE TIFS'23**]](https://ieeexplore.ieee.org/document/10114993)
 - **Effective Evasion technique against Detection tool in the context of micro-architectural attacks** [**[IEEE JETCAS'24**]](https://ieeexplore.ieee.org/document/10742379)
+
+- **Side-channel attacks within the context of serverless computing and cloud environment:** [EURO S&P'24](https://ieeexplore.ieee.org/document/10629032)
+- **Website Fingerprinting and Key Stroke Detection Attack:** [ACSAC'23](https://dl.acm.org/doi/10.1145/3627106.3627191), [ACSAC'22](https://dl.acm.org/doi/10.1145/3564625.3567979)
+- **Detection tool against micro-architectural attacks:** [IEEE TIFS'23](https://ieeexplore.ieee.org/document/10114993)
+- **Effective evasion technique against detection tool in the context of micro-architectural attacks:** [IEEE JETCAS'24](https://ieeexplore.ieee.org/document/10742379)
+
