@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-**I recently defended my Ph.D. dissertation in Computer Engineering at Iowa State University, where I conducted research in the [MAIS Lab](https://www.ece.iastate.edu/bgulmez/) under the supervision of Dr. Berk Gulmezoglu. In August 2026 (Fall Semester), I will join The University of Akron as a tenure-track Assistant Professor in the Department of Electrical and Computer Engineering.**
+I received my Ph.D. in Computer Engineering from Iowa State University, where I conducted research in the [MAIS Lab](https://www.ece.iastate.edu/bgulmez/) under the supervision of Dr. Berk Gulmezoglu. In August 2026 (Fall Semester), I joined The University of Akron as a tenure-track Assistant Professor in the Department of Electrical and Computer Engineering.
 
 My research explores how artificial intelligence can both expose and defend against side-channel attacks, working at the intersection of **computer architecture** and **cybersecurity** to make computing systems more secure without sacrificing performance. I investigate microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities, while also developing deep learning-based defenses against such attacks. My current research also explores trustworthy AI through behavioral attestation of large language models, adversarial robustness of learning-based security mechanisms, and LLM-assisted multi-agent techniques for reproducible security validation across architectures.
 
