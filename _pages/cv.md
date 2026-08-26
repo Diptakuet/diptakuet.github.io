@@ -25,7 +25,7 @@ You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pd
 ## Work Experience
 
 **Research Assistant** — Microarchitecture and Artificial Intelligence Security Laboratory (MAIS), Iowa State University
-*Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Present*
+*Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Aug 2026*
 
 I primarily investigate microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contribute to designing deep learning–based detection and mitigation techniques. Currently, I am developing an LLM-assisted multi-agent framework (uGen) that autonomously generates, tests, and improves both attack and defense strategies.
 
