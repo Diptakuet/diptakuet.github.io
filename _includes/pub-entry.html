@@ -1,0 +1,39 @@
+{% include base_path %}
+{% assign p = include.post %}
+
+{% case p.category %}
+  {% when "conferences" %}{% assign kind = "Conference" %}
+  {% when "manuscripts" %}{% assign kind = "Journal" %}
+  {% when "preprints" %}{% assign kind = "Preprint" %}
+  {% else %}{% assign kind = "" %}
+{% endcase %}
+{% if p.status %}{% assign kind = p.status %}{% endif %}
+
+{% assign authors = p.citation | split: ", &quot;" | first | strip %}
+{% assign authors = authors | replace: "D. R. Dipta", "<strong>D. R. Dipta</strong>" %}
+{% assign cite_text = p.citation | strip_html | replace: "&quot;", '"' | replace: "&apos;", "'" | replace: "&amp;", "&" %}
+
+<article class="pub" data-topics="{{ p.topics | join: ' ' }}">
+  <div class="pub__badges">
+    {% if p.venue_short %}<span class="pub__venue">{{ p.venue_short }}</span>{% endif %}
+    {% if kind != "" %}<span class="pub__kind pub__kind--{{ p.category }}">{{ kind }}</span>{% endif %}
+  </div>
+
+  <div class="pub__body">
+    <h3 class="pub__title">
+      <a href="{% if p.paperurl %}{{ p.paperurl }}{% else %}{{ base_path }}{{ p.url }}{% endif %}">{{ p.title }}</a>
+    </h3>
+    {% if authors != "" %}<p class="pub__authors">{{ authors }}</p>{% endif %}
+    <p class="pub__where">{{ p.venue }}{% if p.paperurl or p.category != "preprints" %}, {{ p.date | date: "%Y" }}{% endif %}</p>
+
+    <div class="pub__links">
+      {% if p.paperurl %}<a class="pub__link" href="{{ p.paperurl }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Paper</a>{% endif %}
+      {% if p.arxivurl %}<a class="pub__link" href="{{ p.arxivurl }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> arXiv</a>{% endif %}
+      {% if p.codeurl %}<a class="pub__link" href="{{ p.codeurl }}"><i class="fa-solid fa-code" aria-hidden="true"></i> Code</a>{% endif %}
+      {% if p.slidesurl %}<a class="pub__link" href="{{ p.slidesurl }}"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> Slides</a>{% endif %}
+      {% if p.bibtexurl %}<a class="pub__link" href="{{ p.bibtexurl }}"><i class="fa-solid fa-quote-right" aria-hidden="true"></i> BibTeX</a>{% endif %}
+      <button type="button" class="pub__link" data-cite="{{ cite_text | escape }}"><i class="fa-solid fa-copy" aria-hidden="true"></i> <span>Cite</span></button>
+      <a class="pub__link" href="{{ base_path }}{{ p.url }}"><i class="fa-solid fa-link" aria-hidden="true"></i> Details</a>
+    </div>
+  </div>
+</article>

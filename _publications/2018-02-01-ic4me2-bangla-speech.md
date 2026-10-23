@@ -2,6 +2,8 @@
 title: "Dynamic Time Warping Assisted SVM Classifier for Bangla Speech Recognition"
 collection: publications
 category: conferences
+venue_short: "IC4ME2 '18"
+earlier: true
 permalink: /publication/2018-02-01-ic4me2-bangla-speech
 excerpt: 'We propose a Bangla speech recognition system that combines Dynamic Time Warping (DTW) for feature alignment with a Support Vector Machine (SVM) classifier, achieving robust recognition performance on a collected Bangla speech dataset.'
 date: 2018-02-01

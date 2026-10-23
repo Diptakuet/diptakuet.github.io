@@ -2,6 +2,8 @@
 title: "A Comprehensive Review of the Load Forecasting Techniques Using Single and Hybrid Predictive Models"
 collection: publications
 category: manuscripts
+venue_short: "IEEE Access"
+earlier: true
 permalink: /publication/2020-08-01-ieee-access20-load-forecasting
 excerpt: 'A comprehensive survey of electrical load forecasting methods, covering statistical models, machine learning approaches, and hybrid techniques, with comparative analysis of their accuracy, computational requirements, and applicability across forecasting horizons.'
 date: 2020-08-01

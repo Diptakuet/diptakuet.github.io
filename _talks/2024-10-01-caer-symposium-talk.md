@@ -8,4 +8,4 @@ date: 2024-10-01
 location: "St. Louis, MO, USA"
 ---
 
-Invited talk at the CAE-R (Center of Academic Excellence in Research) Symposium, presenting an overview of dynamic frequency side-channel attacks across modern computing environments including desktops, cloud VMs, and serverless platforms. The talk highlighted both attack capabilities and detection/mitigation strategies.
+Invited talk at the CAE-R Symposium presenting an overview of dynamic frequency-based side-channel attacks, from website fingerprinting and keystroke inference on Linux and Android to fingerprinting containers and sandboxed cloud workloads.

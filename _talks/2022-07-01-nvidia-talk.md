@@ -8,4 +8,4 @@ date: 2022-07-01
 location: "Remote"
 ---
 
-Invited talk at NVIDIA presenting the dynamic frequency side-channel attack research, discussing its implications for GPU and heterogeneous computing security and potential mitigation strategies from a hardware design perspective.
+Invited talk at NVIDIA presenting "DF-SCA: Dynamic Frequency Side Channel Attacks are Practical," which shows that CPU frequency values readable by unprivileged users enable website fingerprinting and keystroke inference.

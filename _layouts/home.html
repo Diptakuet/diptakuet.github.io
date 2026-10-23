@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page page--home" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ site.author.name }}">
+
+    <div class="page__inner-wrap">
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__text">
+          <p class="hero__eyebrow">{{ page.hero.eyebrow }}</p>
+          <h1 id="hero-title" class="hero__title">{{ page.hero.title }}</h1>
+          <p class="hero__lead">{{ page.hero.lead }}</p>
+          <div class="hero__actions">
+            <a class="sig-btn sig-btn--primary" href="{{ base_path }}/publications/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Publications</a>
+            <a class="sig-btn" href="{{ base_path }}/cv/"><i class="fa-solid fa-id-card" aria-hidden="true"></i> CV</a>
+            {% if site.author.googlescholar %}<a class="sig-btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>{% endif %}
+          </div>
+        </div>
+
+        <figure class="scope" aria-hidden="true">
+          <div class="scope__bar">
+            <span>CPU_FREQ · core 0</span>
+            <span class="scope__readout" data-scope-readout>— GHz</span>
+          </div>
+          <canvas class="scope__canvas" data-scope></canvas>
+          <div class="scope__bar scope__bar--bottom">
+            <span>recovered&gt;</span>
+            <span class="scope__decoded" data-scope-decoded></span>
+          </div>
+        </figure>
+
+        {% assign featured = site.data.news | where: "featured", true | first %}
+        {% if featured %}
+          <a class="hero__latest" href="#news">
+            <span class="hero__latest-tag">Latest</span>
+            <span>{{ featured.title }}</span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        {% endif %}
+      </section>
+
+      <section class="page__content home-section home-about" itemprop="description">
+        {{ content }}
+      </section>
+
+      {% include home/news.html %}
+      {% include home/research.html %}
+      {% include home/selected-publications.html %}
+
+    </div>
+  </article>
+</div>
+
+<script src="{{ base_path }}/assets/js/signal.js" defer></script>

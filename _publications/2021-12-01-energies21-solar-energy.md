@@ -2,6 +2,8 @@
 title: "Solar Energy in the United States: Development, Challenges and Future Prospects"
 collection: publications
 category: manuscripts
+venue_short: "Energies"
+earlier: true
 permalink: /publication/2021-12-01-energies21-solar-energy
 excerpt: 'A comprehensive review of solar energy development in the United States, examining installation trends, policy challenges, grid integration issues, and future prospects for utility-scale and distributed solar deployment.'
 date: 2021-12-01

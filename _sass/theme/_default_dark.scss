@@ -35,20 +35,30 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #16202b;
+    --global-bg-color                   : #0b1016;
+    --global-footer-bg-color            : #0e141b;
+    --global-border-color               : #1f2b38;
+    --global-dark-border-color          : #2a3847;
+    --global-code-background-color      : #111821;
+    --global-code-text-color            : #dbe3ec;
+    --global-fig-caption-color          : #94a3b4;
+    --global-link-color                 : #2dd4bf;
+    --global-link-color-hover           : #7ee8da;
+    --global-link-color-visited         : #2dd4bf;
+    --global-masthead-link-color        : #dbe3ec;
+    --global-masthead-link-color-hover  : #2dd4bf;
+    --global-text-color                 : #dbe3ec;
+    --global-text-color-light           : #94a3b4;
+    --global-thead-color                : #16202b;
+
+    /* Signal design tokens */
+    --sig-surface                       : #111821;
+    --sig-surface-2                     : #16202b;
+    --sig-accent                        : #2dd4bf;
+    --sig-accent-soft                   : rgba(45, 212, 191, 0.12);
+    --sig-on-accent                     : #0b1016;
+    --sig-highlight                     : #fbbf24;
+    --sig-highlight-soft                : rgba(251, 191, 36, 0.12);
+    --sig-shadow                        : 0 1px 2px rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,15 @@
+{% case include.item.type %}
+  {% when "position" %}{% assign icon = "building-columns" %}
+  {% when "degree" %}{% assign icon = "graduation-cap" %}
+  {% when "award" %}{% assign icon = "trophy" %}
+  {% when "talk" %}{% assign icon = "microphone" %}
+  {% when "paper" %}{% assign icon = "file-lines" %}
+  {% when "internship" %}{% assign icon = "briefcase" %}
+  {% when "workshop" %}{% assign icon = "landmark" %}
+  {% else %}{% assign icon = "newspaper" %}
+{% endcase %}
+<li class="timeline__item timeline__item--{{ include.item.type }}">
+  <span class="timeline__icon"><i class="fa-solid fa-{{ icon }}" aria-hidden="true"></i></span>
+  <time class="timeline__date">{{ include.item.date }}</time>
+  <p class="timeline__text">{{ include.item.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+</li>

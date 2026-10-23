@@ -2,6 +2,8 @@
 title: "Comparison of Different Hybrid Renewable Energy Systems With Optimized PV Configuration to Realize the Effects of Multiple Schemes"
 collection: publications
 category: conferences
+venue_short: "ICASERT '19"
+earlier: true
 permalink: /publication/2019-05-02-icasert19-renewable-energy
 excerpt: 'We compare different hybrid renewable energy system configurations with optimized photovoltaic setups to evaluate performance trade-offs and the effects of various integration schemes on energy yield and reliability.'
 date: 2019-05-02

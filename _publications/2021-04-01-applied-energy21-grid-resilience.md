@@ -2,6 +2,8 @@
 title: "Metrics and Enhancement Strategies for Grid Resilience and Reliability during Natural Disasters"
 collection: publications
 category: manuscripts
+venue_short: "Applied Energy"
+earlier: true
 permalink: /publication/2021-04-01-applied-energy21-grid-resilience
 excerpt: 'We review and propose quantitative metrics for assessing electrical grid resilience and reliability under natural disaster conditions, and evaluate enhancement strategies including microgrids, distributed energy resources, and advanced communication systems.'
 date: 2021-04-01

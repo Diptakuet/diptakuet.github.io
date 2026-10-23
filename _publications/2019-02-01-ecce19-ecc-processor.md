@@ -2,6 +2,8 @@
 title: "Efficient Hardware Implementation of 256-bit ECC Processor Over Prime Field"
 collection: publications
 category: conferences
+venue_short: "ECCE '19"
+earlier: true
 permalink: /publication/2019-02-01-ecce19-ecc-processor
 excerpt: 'We present an efficient FPGA-based hardware implementation of a 256-bit Elliptic Curve Cryptography (ECC) processor optimized for speed and area over prime fields.'
 date: 2019-02-01

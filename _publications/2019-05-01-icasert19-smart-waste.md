@@ -2,6 +2,8 @@
 title: "Design of a Convolutional Neural Network Based Smart Waste Disposal System"
 collection: publications
 category: conferences
+venue_short: "ICASERT '19"
+earlier: true
 permalink: /publication/2019-05-01-icasert19-smart-waste
 excerpt: 'We design a smart waste disposal system using a convolutional neural network to automatically classify and sort waste materials, enabling automated recycling and reducing manual sorting effort.'
 date: 2019-05-01

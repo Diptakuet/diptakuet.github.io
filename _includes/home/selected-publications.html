@@ -1,0 +1,16 @@
+{% include base_path %}
+{% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+
+{% if selected.size > 0 %}
+<section id="selected-publications" class="home-section" aria-labelledby="selected-title">
+  <h2 id="selected-title" class="section-title"><span class="section-title__index">03</span> Selected Publications</h2>
+
+  <div class="pub-list">
+    {% for post in selected %}
+      {% include pub-entry.html post=post %}
+    {% endfor %}
+  </div>
+
+  <p class="home-section__more"><a href="{{ base_path }}/publications/">All publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p>
+</section>
+{% endif %}

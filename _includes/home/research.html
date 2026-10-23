@@ -1,0 +1,19 @@
+{% include base_path %}
+
+<section id="research" class="home-section research" aria-labelledby="research-title">
+  <h2 id="research-title" class="section-title"><span class="section-title__index">02</span> Research</h2>
+
+  <div class="research-grid">
+    {% for area in site.data.research %}
+      {% assign count = site.publications | where_exp: "p", "p.topics contains area.topic" | size %}
+      <article class="research-card">
+        <div class="research-card__icon"><i class="fa-solid fa-{{ area.icon }}" aria-hidden="true"></i></div>
+        <h3 class="research-card__title">{{ area.title }}</h3>
+        <p class="research-card__text">{{ area.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% if count > 0 %}
+          <a class="research-card__link" href="{{ base_path }}/publications/#topic-{{ area.topic }}">{{ count }} paper{% if count > 1 %}s{% endif %} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>

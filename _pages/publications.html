@@ -5,32 +5,52 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign preprints = pubs | where: "category", "preprints" %}
+{% assign current = pubs | where_exp: "p", "p.category != 'preprints'" | where_exp: "p", "p.earlier != true" %}
+{% assign earlier = pubs | where: "earlier", true %}
+
+<p class="pubs-intro">
+  Preprints and work in progress first, then peer-reviewed papers by year. Filter by research area below{% if site.author.googlescholar %}, or see my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>{% endif %}.
+</p>
+
+<div class="pub-filters" role="group" aria-label="Filter publications by research area">
+  <button type="button" class="pub-filter is-active" data-filter="all" aria-pressed="true">All</button>
+  {% for area in site.data.research %}
+    <button type="button" class="pub-filter" data-filter="{{ area.topic }}" aria-pressed="false"><i class="fa-solid fa-{{ area.icon }}" aria-hidden="true"></i> {{ area.title }}</button>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+</div>
+
+{% if preprints.size > 0 %}
+  <section class="pub-group">
+    <h2 class="pub-group__title">Preprints &amp; In Progress</h2>
+    <div class="pub-list">
+      {% for post in preprints %}{% include pub-entry.html post=post %}{% endfor %}
+    </div>
+  </section>
 {% endif %}
 
+{% assign by_year = current | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in by_year %}
+  <section class="pub-group">
+    <h2 class="pub-group__title">{{ year.name }}</h2>
+    <div class="pub-list">
+      {% for post in year.items %}{% include pub-entry.html post=post %}{% endfor %}
+    </div>
+  </section>
+{% endfor %}
 
+<p class="pub-empty" hidden>No publications in this area yet.</p>
 
+{% if earlier.size > 0 %}
+  <details class="pub-earlier">
+    <summary>Earlier work, 2018–2021: energy systems, ML applications &amp; hardware ({{ earlier.size }}) <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+    <div class="pub-list">
+      {% for post in earlier %}{% include pub-entry.html post=post %}{% endfor %}
+    </div>
+  </details>
+{% endif %}
+
+<script src="{{ base_path }}/assets/js/signal.js" defer></script>

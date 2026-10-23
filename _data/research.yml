@@ -1,0 +1,22 @@
+# Research areas shown as cards on the home page.
+# `topic` matches the `topics` list in _publications front matter (used by the publication filters).
+
+- topic: frequency
+  icon: wave-square
+  title: "Dynamic Frequency Side Channels"
+  text: "CPU frequency values exposed to unprivileged users leak user activity. [DF-SCA](https://dl.acm.org/doi/10.1145/3564625.3567979) fingerprints websites in Chrome and Tor on Intel, AMD, and ARM and infers keystrokes on Android; [follow-up work](https://ieeexplore.ieee.org/document/10629032) uses frequency sensors to fingerprint Docker containers and sandboxes."
+
+- topic: cloud
+  icon: cloud
+  title: "Container, Sandbox & TEE Isolation"
+  text: "Leakage that crosses isolation boundaries in the cloud: fingerprinting workloads inside gVisor, AWS Firecracker, Gramine-SGX, and AMD SEV, co-location in serverless platforms, and information leakage at the container-kernel interface."
+
+- topic: ml
+  icon: shield-halved
+  title: "Learning-Based Detection, Evasion & Defense"
+  text: "Detecting microarchitectural attacks from [system-wide energy traces](https://ieeexplore.ieee.org/document/10114993), [evading learning-based detectors](https://ieeexplore.ieee.org/document/10742379) by fuzzing their performance-counter inputs, and defenses such as [DefWeb](https://dl.acm.org/doi/10.1145/3627106.3627191) and intrinsic-dimension–based protection against adversarial attacks."
+
+- topic: llm
+  icon: robot
+  title: "LLM-Driven Attack Automation"
+  text: "[uGen](https://arxiv.org/abs/2605.15503), an agentic, retrieval-augmented framework that turns LLMs into reliable generators of microarchitectural attack proof-of-concepts, such as Spectre-v1 and Prime+Probe, moving attack research from manual exploration toward automated analysis."

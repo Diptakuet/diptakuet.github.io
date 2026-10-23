@@ -1,0 +1,56 @@
+# News items shown on the home page, newest first.
+# type: workshop | position | degree | award | talk | paper | internship | travel
+# featured: true shows the item as a highlighted card above the timeline.
+
+- date: "Oct. 2026"
+  type: workshop
+  featured: true
+  title: "2026 NSF SaTC Aspiring PIs Workshop"
+  text: "Participated in the NSF-sponsored Secure and Trustworthy Cyberspace (SaTC) Aspiring PIs Workshop, which prepares researchers new to the SaTC program for NSF's proposal and review process."
+  location: "Johns Hopkins Bloomberg Center, Washington, DC"
+  link: "https://nsfsatcaspiringpi2026.cs.jhu.edu/"
+  link_label: "Workshop website"
+
+- date: "Aug. 2026"
+  type: position
+  text: "Joined [The University of Akron](https://www.uakron.edu/) as a tenure-track Assistant Professor in Electrical and Computer Engineering"
+
+- date: "Aug. 2026"
+  type: degree
+  text: "Completed Ph.D. in Computer Engineering, Iowa State University — dissertation: [*From Manual Exploration to Automated Analysis of Microarchitectural Threats*](https://www.proquest.com/docview/3380553386)"
+
+- date: "May 2026"
+  type: paper
+  text: "Preprint released on arXiv — [*uGen: An Agentic Framework for Generating Microarchitectural Attack PoCs*](https://arxiv.org/abs/2605.15503)"
+
+- date: "2025–2026"
+  type: award
+  text: "Recipient of the **Takano Fellowship** Graduate Research Fellowship (~$60K), Iowa State University"
+
+- date: "May–Aug. 2025"
+  type: internship
+  text: "Research Administration Intern at CoMFRE and Iowa Water Center, Iowa State University"
+
+- date: "Apr. 2025"
+  type: talk
+  text: "Invited talk at the University of Lübeck, Germany — *\"Exploiting Dynamic Frequency: Side-Channel Attacks and Evasion in Modern Systems\"*"
+
+- date: "Dec. 2024"
+  type: paper
+  text: "Paper published in [IEEE JETCAS](https://ieeexplore.ieee.org/document/10742379) — *\"Systematical Evasion From Learning-Based Microarchitectural Attack Detection Tools\"*"
+
+- date: "Nov. 2024–Apr. 2025"
+  type: internship
+  text: "Research Intern at **Telefónica Innovación Digital**, Barcelona, Spain — worked on microarchitectural side-channel attacks in serverless cloud environments"
+
+- date: "Oct. 2024"
+  type: talk
+  text: "Invited talk at CAE-R Symposium, St. Louis — *\"Dynamic Frequency-Based Side-Channel Attacks on Modern Computing Environments\"*"
+
+- date: "Aug. 2024"
+  type: degree
+  text: "Completed M.Eng. in Computer Engineering, Iowa State University"
+
+- date: "Jul. 2024"
+  type: paper
+  text: "Presented at [IEEE EuroS&P 2024](https://ieeexplore.ieee.org/document/10629032) in Vienna, Austria"

@@ -16,7 +16,7 @@ You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pd
 ## Education
 
 - **Ph.D. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *August 2026*
-  [Dissertation](https://www.proquest.com/docview/3380553386) &nbsp;|&nbsp; Advisor: Dr. Berk Gulmezoglu
+  Dissertation: [*From Manual Exploration to Automated Analysis of Microarchitectural Threats*](https://www.proquest.com/docview/3380553386) &nbsp;|&nbsp; Advisor: Dr. Berk Gulmezoglu
 - **M.Eng. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *August 2024*
 - **B.Sc. in Electrical and Electronic Engineering**, Khulna University of Engineering and Technology, Khulna, Bangladesh &nbsp; *April 2018*
 
@@ -30,7 +30,7 @@ You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pd
 **Research Assistant** — Microarchitecture and Artificial Intelligence Security Laboratory (MAIS), Iowa State University
 *Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Aug 2026*
 
-I primarily investigated microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contributed to designing deep learning–based detection and mitigation techniques, and developed an LLM-assisted multi-agent framework (uGen) that autonomously generates, tests, and improves both attack and defense strategies.
+I primarily investigated microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contributed to designing deep learning–based detection and mitigation techniques, and developed [uGen](https://arxiv.org/abs/2605.15503), an agentic, retrieval-augmented framework for generating microarchitectural attack proof-of-concepts with LLMs.
 
 **Research Administration Intern** — CoMFRE and Iowa Water Center, Iowa State University
 *May – Aug. 2025*

@@ -1,0 +1,42 @@
+{% assign news_visible = 6 %}
+{% assign featured_news = site.data.news | where: "featured", true %}
+{% assign timeline = site.data.news | where_exp: "item", "item.featured != true" %}
+
+<section id="news" class="home-section news" aria-labelledby="news-title">
+  <h2 id="news-title" class="section-title"><span class="section-title__index">01</span> News</h2>
+
+  {% for item in featured_news %}
+    <article class="news-feature">
+      <div class="news-feature__icon"><i class="fa-solid fa-landmark" aria-hidden="true"></i></div>
+      <div class="news-feature__body">
+        <p class="news-feature__meta">
+          <span class="news-feature__tag">Featured</span>
+          <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> {{ item.date }}</span>
+          {% if item.location %}<span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ item.location }}</span>{% endif %}
+        </p>
+        <h3 class="news-feature__title">{{ item.title }}</h3>
+        <p class="news-feature__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% if item.link %}
+          <a class="sig-btn sig-btn--highlight" href="{{ item.link }}">{{ item.link_label | default: "Learn more" }} <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i></a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+
+  <ol class="timeline">
+    {% for item in timeline limit: news_visible %}
+      {% include home/news-item.html item=item %}
+    {% endfor %}
+  </ol>
+
+  {% if timeline.size > news_visible %}
+    <details class="timeline-more">
+      <summary>Show older news <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+      <ol class="timeline">
+        {% for item in timeline offset: news_visible %}
+          {% include home/news-item.html item=item %}
+        {% endfor %}
+      </ol>
+    </details>
+  {% endif %}
+</section>
