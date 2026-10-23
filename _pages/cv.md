@@ -15,8 +15,8 @@ You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pd
 
 ## Education
 
-- **Ph.D. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *2021–Present*
-  *Expected Graduation: June 2026*
+- **Ph.D. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *August 2026*
+  [Dissertation](https://www.proquest.com/docview/3380553386) &nbsp;|&nbsp; Advisor: Dr. Berk Gulmezoglu
 - **M.Eng. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *August 2024*
 - **B.Sc. in Electrical and Electronic Engineering**, Khulna University of Engineering and Technology, Khulna, Bangladesh &nbsp; *April 2018*
 
@@ -24,10 +24,13 @@ You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pd
 
 ## Work Experience
 
+**Assistant Professor (Tenure-Track)** — Department of Electrical and Computer Engineering, The University of Akron
+*Aug 2026 – Present*
+
 **Research Assistant** — Microarchitecture and Artificial Intelligence Security Laboratory (MAIS), Iowa State University
 *Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Aug 2026*
 
-I primarily investigate microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contribute to designing deep learning–based detection and mitigation techniques. Currently, I am developing an LLM-assisted multi-agent framework (uGen) that autonomously generates, tests, and improves both attack and defense strategies.
+I primarily investigated microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contributed to designing deep learning–based detection and mitigation techniques, and developed an LLM-assisted multi-agent framework (uGen) that autonomously generates, tests, and improves both attack and defense strategies.
 
 **Research Administration Intern** — CoMFRE and Iowa Water Center, Iowa State University
 *May – Aug. 2025*
@@ -71,6 +74,12 @@ Worked on identifying and analyzing co-location methods within cloud environment
 - **Glenn W. and Cordelia R. Sellers** Graduate Research Endowment ($6K), Iowa State University, 2023–2024
 - **ACSAC Student Conferenceship**, 2022
 - **University Merit Scholarship**, Khulna University of Engineering and Technology, 2013–2018
+
+---
+
+## Professional Development
+
+- **Participant**, [2026 SaTC Aspiring PIs Workshop](https://nsfsatcaspiringpi2026.cs.jhu.edu/), Johns Hopkins Bloomberg Center, Washington, DC, Oct. 2026
 
 ---
 
