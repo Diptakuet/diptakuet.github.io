@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF copy of my full CV [here](/Dipta_Resume_academia_FINAL.pdf).
+You can download a PDF copy of my full CV [here](/Roy_CV.pdf).
 
 ---
 
