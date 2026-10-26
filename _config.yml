@@ -22,7 +22,7 @@ repository               : "Diptakuet/diptakuet.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.png"
   name             : "Debopriya Roy Dipta"
   pronouns         : "he/him"  
   bio              : "Assistant Professor | Electrical & Computer Engineering"
