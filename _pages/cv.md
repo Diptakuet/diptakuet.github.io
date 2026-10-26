@@ -13,6 +13,26 @@ You can download a PDF copy of my full CV [here](/Roy_CV.pdf).
 
 ---
 
+## Professional Experience
+
+**Assistant Professor (Tenure-Track)** — Department of Electrical and Computer Engineering, The University of Akron
+*Aug 2026 – Present*
+
+**Research Assistant** — Microarchitecture and Artificial Intelligence Security Laboratory (MAIS), Iowa State University
+*Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Aug 2026*
+
+Investigated side-channel and speculative execution vulnerabilities, including new leakage pathways in containers, sandboxes, Trusted Execution Environments (TEEs), and serverless cloud systems; designed deep learning–based detection and mitigation techniques; and developed [uGen](https://arxiv.org/abs/2605.15503), an agentic framework for generating microarchitectural attack proof-of-concepts with LLMs.
+
+**Research Intern** — Telefónica Innovación Digital, Barcelona, Spain
+*Nov 2024 – Apr 2025*
+
+Analyzed co-location methods in cloud environments and evaluated the feasibility of microarchitectural side-channel attacks in serverless platforms, particularly Cloudflare's infrastructure.
+
+**Research Administration Intern** — Centre for Multiphase Flow Research and Education (CoMFRE) and Iowa Water Center (IWC), Iowa State University
+*May – Aug. 2025*
+
+---
+
 ## Education
 
 - **Ph.D. in Computer Engineering**, Iowa State University, Ames, IA &nbsp; *August 2026*
@@ -22,31 +42,17 @@ You can download a PDF copy of my full CV [here](/Roy_CV.pdf).
 
 ---
 
-## Work Experience
-
-**Assistant Professor (Tenure-Track)** — Department of Electrical and Computer Engineering, The University of Akron
-*Aug 2026 – Present*
-
-**Research Assistant** — Microarchitecture and Artificial Intelligence Security Laboratory (MAIS), Iowa State University
-*Aug 2021 – Nov 2024 &nbsp;|&nbsp; Aug 2025 – Aug 2026*
-
-I primarily investigated microarchitectural and software-level attack vectors, focusing on side-channel and speculative execution vulnerabilities. My work extends to exploring new leakage pathways in Trusted Execution Environments (TEEs) and sandboxed serverless cloud systems, exposing how isolation mechanisms can be bypassed. Alongside attack development, I also contributed to designing deep learning–based detection and mitigation techniques, and developed [uGen](https://arxiv.org/abs/2605.15503), an agentic, retrieval-augmented framework for generating microarchitectural attack proof-of-concepts with LLMs.
-
-**Research Administration Intern** — CoMFRE and Iowa Water Center, Iowa State University
-*May – Aug. 2025*
-
-Supported both pre-award and post-award research administration by contributing to grant preparation, budget planning, and faculty outreach. Assisted with website management and digital accessibility updates to ensure compliance with accessibility standards.
-
-**Research Intern** — Telefónica Innovación Digital, Barcelona, Spain
-*Nov 2024 – Apr 2025*
-
-Worked on identifying and analyzing co-location methods within cloud environments to assess their susceptibility to microarchitectural side-channel attacks. Focused on evaluating the feasibility of such attacks in serverless paradigms, particularly targeting Cloudflare's infrastructure.
-
----
-
 ## Publications
 
 <ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+---
+
+## Teaching & Mentoring
+
+<ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
@@ -60,32 +66,21 @@ Worked on identifying and analyzing co-location methods within cloud environment
 
 ---
 
-## Teaching & Mentoring
-
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
----
-
 ## Academic Honors
 
-- **Takano Fellowship** Graduate Research Fellowship (For 1 academic year, ≈ $60K), Iowa State University, 2025–2026
+- **Miller Completion Award**, Iowa State University, Summer 2026 — for completing doctoral studies with outstanding research accomplishments
+- **Research Excellence Award (REX)**, Graduate College, Iowa State University, May 2026 — recognizes graduate students who have demonstrated outstanding accomplishments in research and scholarly achievement
+- **Takano Fellowship** Graduate Research Fellowship (for 1 academic year, ≈ $60K), Iowa State University, 2025–2026
 - **Glenn W. and Cordelia R. Sellers** Graduate Research Endowment ($6K), Iowa State University, 2023–2024
 - **ACSAC Student Conferenceship**, 2022
 - **University Merit Scholarship**, Khulna University of Engineering and Technology, 2013–2018
 
 ---
 
-## Professional Development
-
-- **Participant**, [2026 SaTC Aspiring PIs Workshop](https://nsfsatcaspiringpi2026.cs.jhu.edu/), Johns Hopkins Bloomberg Center, Washington, DC, Oct. 2026
-
----
-
-## Service
+## Professional Service & Development
 
 - **Reviewer (Journals):** IEEE Transactions on Information Forensics and Security (2024, 2025); IEEE Transactions on Dependable and Secure Computing (2025); IEEE Open Journal of the Computer Society (2025); IEEE Access (2020–2021)
 - **Reviewer (Conferences):** ESORICS (2023, 2024); NDSS (2025)
-- **Presenter**, Youth Cyber Summit (2024, 2025) — Engaged high school students in a cybersecurity awareness demonstration organized by the Iowa Cyber Hub
+- **Participant**, [2026 NSF SaTC Aspiring PIs Workshop](https://nsfsatcaspiringpi2026.cs.jhu.edu/), Johns Hopkins Bloomberg Center, Washington, DC, Oct. 2026
+- **Presenter**, Youth Cyber Summit, Iowa Cyber Hub (2024, 2025) — cybersecurity awareness demonstrations for high school students
 - **Vice-President**, IEEE Student Branch, KUET, Bangladesh, 2016–2018

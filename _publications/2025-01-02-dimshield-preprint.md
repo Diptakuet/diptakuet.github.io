@@ -11,4 +11,4 @@ venue: 'In preparation'
 citation: 'D. R. Dipta, K. Christofferson, S. Son and B. Gulmezoglu, &quot;DimShield: Exploring Intrinsic Dimension Estimation for Enhanced Machine Learning Security.&quot; In preparation.'
 ---
 
-Deep neural networks remain vulnerable to adversarial examples, small input perturbations that cause confident misclassification. DimShield is a runtime defense framework that estimates the intrinsic dimension of the data and uses it to counter adversarial attacks on deep neural networks. The work began as a mentored undergraduate research project in the MAIS Lab at Iowa State University and is in preparation for journal submission.
+Deep neural networks remain vulnerable to adversarial examples, small input perturbations that cause confident misclassification. DimShield is a runtime defense framework that estimates the intrinsic dimension of the data and uses it to counter adversarial attacks on deep neural networks. The work started as an INSuRE Hub project and is being prepared for submission.

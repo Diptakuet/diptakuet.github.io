@@ -18,9 +18,9 @@ layout: default
           <h1 id="hero-title" class="hero__title">{{ page.hero.title }}</h1>
           <p class="hero__lead">{{ page.hero.lead }}</p>
           <div class="hero__actions">
-            <a class="sig-btn sig-btn--primary" href="{{ base_path }}/publications/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Publications</a>
-            <a class="sig-btn" href="{{ base_path }}/cv/"><i class="fa-solid fa-id-card" aria-hidden="true"></i> CV</a>
-            {% if site.author.googlescholar %}<a class="sig-btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>{% endif %}
+            <a class="sig-btn sig-btn--primary" target="_blank" rel="noopener" href="{{ base_path }}/publications/"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Publications</a>
+            <a class="sig-btn" target="_blank" rel="noopener" href="{{ base_path }}/cv/"><i class="fa-solid fa-id-card" aria-hidden="true"></i> CV</a>
+            {% if site.author.googlescholar %}<a class="sig-btn" target="_blank" rel="noopener" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>{% endif %}
           </div>
         </div>
 

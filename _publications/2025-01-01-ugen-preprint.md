@@ -2,7 +2,7 @@
 title: "uGen: An Agentic Framework for Generating Microarchitectural Attack PoCs"
 collection: publications
 category: preprints
-status: 'arXiv Preprint'
+status: 'Under Review'
 topics: [llm]
 permalink: /publication/2025-01-01-ugen-preprint
 excerpt: 'We find that LLMs frequently misplace or misuse critical attack primitives when writing microarchitectural attack code, and present uGen, a retrieval-augmented, multi-agent framework that supplies the missing domain knowledge to generate working proof-of-concepts.'
